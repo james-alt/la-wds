@@ -1,2 +1,3 @@
-# la-wds
-Louisiana Web Design System
+# Louisiana Web Design System
+
+> Inspired by the [USDS Web Design Standards](https://standards.usa.gov)
