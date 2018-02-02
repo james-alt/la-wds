@@ -6,4 +6,4 @@
 
 Built using [Fractal](https://fractal.build)
 
-> fractal start --sync
+```fractal start --sync```
