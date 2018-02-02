@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/james-alt/la-wds#readme",
   "devDependencies": {
+    "@frctl/fractal": "^1.1.7",
+    "@frctl/nunjucks": "^1.0.3",
     "copyfiles": "^1.2.0",
     "node-sass": "^4.7.2",
     "rimraf": "^2.6.2",
