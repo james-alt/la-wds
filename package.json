@@ -1,0 +1,42 @@
+{
+  "name": "la-wds",
+  "version": "1.0.0",
+  "description": "State of Louisiana - Web Design System",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run sass",
+    "clean": "npm run clean:dist",
+    "clean:dist": "rimraf dist/*",
+    "prebuild": "npm run clean",
+    "sass": "node-sass src/styles/la.scss -o dist/styles/",
+    "test": "test"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-alt/la-wds.git"
+  },
+  "keywords": [
+    "la",
+    "louisiana",
+    "web",
+    "design",
+    "system"
+  ],
+  "author": "Office of Technology Services",
+  "contributors": [
+    "James Alt <james.alt@la.gov>"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/james-alt/la-wds/issues"
+  },
+  "homepage": "https://github.com/james-alt/la-wds#readme",
+  "devDependencies": {
+    "@frctl/fractal": "^1.1.7",
+    "@frctl/nunjucks": "^1.0.3",
+    "copyfiles": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "rimraf": "^2.6.2",
+    "sass": "^1.0.0-beta.4"
+  }
+}
