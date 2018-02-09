@@ -4,7 +4,12 @@
   "description": "State of Louisiana - Web Design System",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "npm run sass",
+    "clean": "npm run clean:dist",
+    "clean:dist": "rimraf dist/*",
+    "prebuild": "npm run clean",
+    "sass": "node-sass src/styles/la.scss -o dist/styles/",
+    "test": "test"    
   },
   "repository": {
     "type": "git",

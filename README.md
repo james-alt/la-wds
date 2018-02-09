@@ -4,6 +4,20 @@
 
 ## Getting Started
 
+Install dependencies
+
+```script
+npm install
+```
+
+Build Stylesheets
+
+```script
+npm run build
+```
+
 Built using [Fractal](https://fractal.build)
 
-```fractal start --sync```
+```script
+fractal start --sync
+```

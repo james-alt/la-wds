@@ -1,0 +1,125 @@
+// These variables will drive most things in the State of Louisiana
+// Design System. Every variable is declared as !default so that it 
+// can be overriden by a previous import.
+
+// Typography ----------- //
+$em-base:               10px; // not default because bourbon will overwrite this
+$base-font-size:        1.7rem !default;
+$small-font-size:       1.4rem !default;
+$lead-font-size:        2rem !default;
+$title-font-size:       5.2rem !default;
+$subtitle-font-size:    1.5rem !default;
+$h1-font-size:          4rem !default;
+$h2-font-size:          3rem !default;
+$h3-font-size:          2rem !default;
+$h4-font-size:          1.7rem !default;
+$h5-font-size:          1.5rem !default;
+$h6-font-size:          1.3rem !default;
+$base-line-height:      1.5 !default;
+$heading-line-height:   1.3 !default;
+$lead-line-height:      1.7 !default;
+
+$font-sans:             $font-stack-helvetica !default;
+$font-serif:            $font-stack-georgia !default;
+
+$font-weight-normal:    400 !default;
+$font-weight-bold:      700 !default;
+
+// Colors --------------- //
+// Colors based on the material design standards
+// standard is 500, light is 100, dark is 700
+$color-white:           #ffffff !default;
+$color-black:           #000000 !default;
+
+$color-red:             #F44336 !default;
+$color-red-dark:        #D32F2f !default;
+$color-red-light:       #FFCDD2 !default;
+
+$color-pink:            #E91E63 !default;
+$color-pink-dark:       #C2185B !default;
+$color-pink-light:      #F8BBD0 !default;
+
+$color-purple:          #9C27B0 !default;
+$color-purple-dark:     #7B1FA2 !default;
+$color-purple-light:    #E1BEE7 !default;
+
+$color-d-purple:        #673AB7 !default;
+$color-d-purple-dark:   #512DA8 !default;
+$color-d-purple-light:  #D1C4E9 !default;   
+
+$color-indigo:          #3F51B5 !default;
+$color-indigo-dark:     #303F9F !default;
+$color-indigo-light:    #C5CAE9 !default;
+
+$color-blue:            #2196F3 !default;
+$color-blue-dark:       #1976D2 !default;
+$color-blue-light:      #BBDEFB !default;
+
+$color-l-blue:          #03A9F4 !default;
+$color-l-blue-dark:     #0288D1 !default;
+$color-l-blue-light:    #B3E5FC !default;
+
+$color-cyan:            #00BCD4 !default;
+$color-cyan-dark:       #0097A7 !default;
+$color-cyan-light:      #B2EBF2 !default;
+
+$color-teal:            #009688 !default;
+$color-teal-dark:       #00796B !default;
+$color-teal-light:      #B2DFDB !default;
+
+$color-green:           #4CAF50 !default;
+$color-green-dark:      #388E3C !default;
+$color-green-light:     #C8E6C9 !default;
+
+$color-l-green:         #8BC34A !default;
+$color-l-green-dark:    #689F38 !default;
+$color-l-green-light:   #DCEDC8 !default;
+
+$color-lime:            #CDDC39 !default;
+$color-lime-dark:       #AFB42B !default;
+$color-lime-light:      #F0F4C3 !default;
+
+$color-yellow:          #FFEB3B !default;
+$color-yellow-dark:     #FBC02D !default;
+$color-yellow-light:    #FFF9C4 !default;
+
+$color-amber:           #FFC107 !default;
+$color-amber-dark:      #FFECB3 !default;
+$color-amber-light:     #FFA000 !default;
+
+$color-orange:          #FF9800 !default;
+$color-orange-dark:     #F57C00 !default;
+$color-orange-light:    #FFE0B2 !default;
+
+$color-d-orange:        #FF5722 !default;
+$color-d-orange-dark:   #E64A19 !default;
+$color-d-orange-light:  #FFCCBC !default;
+
+$color-brown:           #795548 !default;
+$color-brown-dark:      #5D4037 !default;
+$color-brown-light:     #D7CCC8 !default;
+
+$color-gray:            #9E9E9E !default;
+$color-gray-dark:       #616161 !default;
+$color-gray-light:      #F5F5F5 !default;
+$color-gray-darkest:    #212121 !default;
+
+$color-bluegray:        #607D8B !default;
+$color-bluegray-dark:   #455A64 !default;
+$color-bluegray-light:  #CFD8DC !default;
+
+
+// Functional Colors ---- //
+// Override these values for variations on default colors
+$color-primary:         $color-blue !default;
+$color-primary-darker:  $color-blue-dark !default;
+$color-primary-light:   $color-blue-light !default;
+
+$color-viewport:        $color-white !default;
+$color-base:            $color-gray-darkest !default;
+$color-focus:           $color-gray !default;
+$color-visited:         $color-purple !default;
+
+// Other ---------------- //
+$focus-outline:         2px dotted $color-focus;
+$focus-spacing:         3px;

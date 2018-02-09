@@ -1,0 +1,46 @@
+@mixin title {
+    font-size: $title-font-size;
+    font-weight: $font-weight-bold;
+}
+
+@mixin subtitle {
+    font-size: $subtitle-font-size;
+    font-weight: $font-weight-normal;
+}
+
+@mixin h1 {
+    font-size: $h1-font-size;
+    font-weight: $font-weight-bold;
+}
+
+@mixin h2 {
+    font-size: $h2-font-size;
+    font-weight: $font-weight-bold;
+}
+
+@mixin h3 {
+    font-size: $h3-font-size;
+    font-weight: $font-weight-bold;
+}
+
+@mixin h4 {
+    font-size: $h4-font-size;
+    font-weight: $font-weight-bold;
+}
+
+@mixin h5 {
+    font-size: $h5-font-size;
+    font-weight: $font-weight-bold;
+}
+
+@mixin h6 {
+    font-size: $h6-font-size;
+    font-weight: $font-weight-normal;
+    line-height: $base-line-height;
+    text-transform: uppercase;
+}
+
+@mixin focus {
+    outline: $focus-outline;
+    outline-offset: $focus-spacing;
+}

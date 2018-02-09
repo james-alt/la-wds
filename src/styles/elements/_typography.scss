@@ -1,0 +1,82 @@
+html {
+    font-family: $font-sans;
+    font-size: $em-base;
+}
+
+body {
+    font-size: $base-font-size;
+}
+
+p {
+    line-height: $base-line-height;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+a {
+    color: $color-primary;
+    text-decoration: underline;
+
+    &:hover,
+    &:active {
+        color: $color-primary-darker;
+    }
+
+    &:focus {
+        @include focus;
+    }
+
+    &:visited {
+        color: $color-visited;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    clear: both;
+    font-family: $font-serif;
+    line-height: $heading-line-height;
+    margin-bottom: .5em;
+    margin-top: 1.5em;
+}
+
+h6 {
+    font-family: $font-sans;
+}
+
+h1 {
+    @include h1;
+}
+
+h2 {
+    @include h2;
+}
+
+h3 {
+    @include h3;
+}
+
+h4 {
+    @include h4;
+}
+
+h5 {
+    @include h5;
+}
+
+h6 {
+    @include h6;
+}
+
+.title {
+    @include title;
+    display:block;
+}
+
+.subtitle {
+    @include subtitle;
+    display:block;
+}
